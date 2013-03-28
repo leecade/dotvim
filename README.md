@@ -5,7 +5,10 @@ base `vim-pathogen` & `git submodule`
 
 # INSTALL
 
-`git clone git@github.com:leecade/dotvim.git ~/.vim`
+```bash
+$cd ~
+$git clone git://github.com/leecade/dotvim.git .vim
+```
 
 `mv ~/.vimrc{,.bak}`
 
