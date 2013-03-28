@@ -7,16 +7,17 @@ base `vim-pathogen` & `git submodule`
 
 ```bash
 $cd ~
+
 $git clone git://github.com/leecade/dotvim.git .vim
+
+$mv ~/.vimrc{,.bak}
+
+$ln -s ~/.vim/vimrc ~/.vimrc
+
+$git submodule init
+
+$git submodule update
 ```
-
-`mv ~/.vimrc{,.bak}`
-
-`ln -s ~/.vim/vimrc ~/.vimrc`
-
-`git submodule init`
-
-`git submodule update`
 
 # Add a bundle
 
