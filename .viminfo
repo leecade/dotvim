@@ -14,12 +14,12 @@
 $
 
 # Command Line History (newest to oldest):
+:q
 :q!
 :set fileencoding?
 :set cs?
 :set ft?
 :set syntax?
-:q
 :set syntax=css
 :wq
 :w!
@@ -71,18 +71,19 @@ $
 	e
 
 # File marks:
-'0  8  3  ~/.vim/autoload/index.html
-'1  1  0  ~/.vim/colors/obsidian.vim
-'2  18  0  ~/.vim/colors/solarized.vim
-'3  7  0  ~/.vim/colors/solarized.vim
-'4  1  0  ~/.vim/colors/solarized.vim
-'5  31  0  ~/.vimrc
-'6  60  0  /data/work/global/hao123/trunk/fe/web/templates/web/base/base.html
-'7  2  0  /Volumes/hao123/yuji/global_hao123/webroot/.gitignore
-'8  41  0  /Volumes/hao123/yuji/global_hao123/webroot/.gitignore
-'9  1  0  ~/.ssh/sockets/root@49.212.217.46:22
+'0  1  0  ~/.vim/.gitmodules
+'1  8  3  ~/.vim/autoload/index.html
+'2  1  0  ~/.vim/colors/obsidian.vim
+'3  18  0  ~/.vim/colors/solarized.vim
+'4  7  0  ~/.vim/colors/solarized.vim
+'5  1  0  ~/.vim/colors/solarized.vim
+'6  31  0  ~/.vimrc
+'7  60  0  /data/work/global/hao123/trunk/fe/web/templates/web/base/base.html
+'8  2  0  /Volumes/hao123/yuji/global_hao123/webroot/.gitignore
+'9  41  0  /Volumes/hao123/yuji/global_hao123/webroot/.gitignore
 
 # Jumplist (newest first):
+-'  1  0  ~/.vim/.gitmodules
 -'  8  3  ~/.vim/autoload/index.html
 -'  17  3  ~/.vim/autoload/index.html
 -'  1  9  ~/.vim/autoload/index.html
@@ -179,8 +180,12 @@ $
 -'  5  0  ~/1.css
 -'  1  0  ~/1.css
 -'  5  0  ~/1.css
+-'  8  3  ~/.vim/autoload/index.html
 
 # History of marks within files (newest to oldest):
+
+> ~/.vim/.gitmodules
+	"	1	0
 
 > ~/.vim/autoload/index.html
 	"	8	3
