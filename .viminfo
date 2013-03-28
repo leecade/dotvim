@@ -16,13 +16,14 @@ $
 # Command Line History (newest to oldest):
 :q
 :q!
+:wq
+:q@
+:w!
 :set fileencoding?
 :set cs?
 :set ft?
 :set syntax?
 :set syntax=css
-:wq
-:w!
 :wq!
 :colorscheme solarized
 :colorscheme
@@ -41,9 +42,9 @@ $
 # Input Line History (newest to oldest):
 
 # Registers:
-"0	LINE	0
-	" .gvimrc
-""1	LINE	0
+"0	CHAR	0
+	    autocmd FileType make setlocal ts=4 sts=4 sw=4 noexpandtab
+"1	LINE	0
 	    div
 	    el
 	   li 
@@ -67,315 +68,149 @@ $
 	" " Always display the tab bar
 "9	LINE	0
 	" set showtabline
-"-	CHAR	0
-	e
+""-	CHAR	0
+	 
 
 # File marks:
 '0  1  0  ~/.vim/.gitmodules
-'1  8  3  ~/.vim/autoload/index.html
-'2  1  0  ~/.vim/colors/obsidian.vim
-'3  18  0  ~/.vim/colors/solarized.vim
-'4  7  0  ~/.vim/colors/solarized.vim
-'5  1  0  ~/.vim/colors/solarized.vim
-'6  31  0  ~/.vimrc
-'7  60  0  /data/work/global/hao123/trunk/fe/web/templates/web/base/base.html
-'8  2  0  /Volumes/hao123/yuji/global_hao123/webroot/.gitignore
-'9  41  0  /Volumes/hao123/yuji/global_hao123/webroot/.gitignore
+'1  28  20  ~/.vim/vimrc
+'2  1  0  ~/.vim/vimrc
+'3  10  0  ~/.vim/vimrc
+'4  17  0  ~/.vim/colors/devbox-dark-256.vim
+'5  57  0  ~/.vim/vimrc2
+'6  43  0  ~/.vim/vimrc2
+'7  34  0  ~/.vim/vimrc2
+'8  31  0  ~/.vim/vimrc2
+'9  37  0  ~/.vim/vimrc
 
 # Jumplist (newest first):
 -'  1  0  ~/.vim/.gitmodules
--'  8  3  ~/.vim/autoload/index.html
--'  17  3  ~/.vim/autoload/index.html
--'  1  9  ~/.vim/autoload/index.html
--'  1  0  ~/.vim/colors/obsidian.vim
--'  18  0  ~/.vim/colors/solarized.vim
--'  1  0  ~/.vim/colors/solarized.vim
--'  7  0  ~/.vim/colors/solarized.vim
--'  31  0  ~/.vimrc
--'  1  0  ~/.vimrc
--'  60  0  /data/work/global/hao123/trunk/fe/web/templates/web/base/base.html
--'  1  0  /data/work/global/hao123/trunk/fe/web/templates/web/base/base.html
--'  2  0  /Volumes/hao123/yuji/global_hao123/webroot/.gitignore
--'  1  0  /Volumes/hao123/yuji/global_hao123/webroot/.gitignore
--'  41  0  /Volumes/hao123/yuji/global_hao123/webroot/.gitignore
--'  1  0  ~/.ssh/sockets/root@49.212.217.46:22
--'  1  0  /data/dev/node/shadowsocks-nodejs/config.json
--'  1  0  /data/dev/node/ooxx/etc/node-ooxx.sh
--'  4  10  /Volumes/hao123/yuji/global_hao123/webroot/.gitignore
--'  1  0  /data/dev/node/ooxx/node_modules/express-uglify/lib/middleware.js
--'  1  0  /usr/local/etc/nginx/vhost/ssh
--'  1  0  /usr/local/etc/nginx/vhost/ooxx.org.conf
--'  1  2  /data/dev/node/ooxx/public/js/1.html
--'  1  1  /data/dev/node/ooxx/public/test.html
--'  5  0  /data/dev/google/test/leakfinder/.gclient
--'  1  0  /data/dev/google/test/leakfinder/.gclient
--'  1  0  /private/tmp/crontab.07wAjEd3Cq
--'  1  0  /data/tmp/upload/menhao123_1.18.9/bae.conf
--'  1  0  /private/etc/sudoers
--'  5  0  ~/.oh-my-zsh/123
--'  1  0  ~/.oh-my-zsh/123
--'  4  9  /data/dev/node/node-editor/example/beep.json
--'  1  0  /data/dev/node/node-editor/example/beep.json
--'  1  0  scp://username@host//path/to/somefile
--'  1  0  ~/Library/Application Support/Pow/Hosts/g
--'  1  0  /Library/Application Support/Google/Chrome/Default/User StyleSheets/Custom.css
--'  1  0  /Library/Application Support/Google/Chrome/Default/User StyleSheets/1
--'  1  0  /data/tmp/upload/mid/index.html
--'  1  0  /data/tmp/upload/index.html
--'  1  0  ~/.zshrc
--'  4  2  ~/.ssh/known_hosts
--'  1  0  ~/.ssh/known_hosts
--'  1  0  /data/dev/node/pow/output/index.js
--'  1  0  /data/dev/node/pow/src/index.coffee
--'  1  0  /data/dev/node/pow/src/in.coffee
--'  1  0  /data/dev/node/pow/lib/index.js
--'  1  0  /private/tmp/crontab.Sp2oE2lw7z
--'  1  0  ~/Dropbox/vps/test/exclude.txt
--'  2  5  ~/Dropbox/vps/test/.rsynctignore
--'  1  0  ~/Dropbox/vps/test/.rsynctignore
--'  1  0  /data/tmp/2222/123
--'  3  13  /data/work/global/m.hao222/online/1.0.2/br/bae.conf
--'  1  0  /data/work/global/m.hao222/online/1.0.2/br/bae.conf
--'  1  0  /data/work/global/m.hao222/online/1.0.2/br.1/bae.conf
--'  1  0  ~/.ssh/id_rsa.pub
--'  47  9  ~/Dropbox/dotfiles/.gitignore
--'  1  0  ~/Dropbox/dotfiles/.gitignore
--'  22  61  /data/dev/git/leecade/G.hub/dotfiles/vim/gvimrc
--'  1  0  /data/dev/git/leecade/G.hub/dotfiles/vim/gvimrc
--'  2  11  /data/dev/git/leecade/G.hub/dotfiles/.gitignore
--'  1  0  /data/dev/git/leecade/G.hub/dotfiles/.gitignore
--'  2  1  /data/dev/git/leecade/G.hub/basecss/.gitignore
--'  1  0  /data/dev/git/leecade/G.hub/basecss/.gitignore
--'  1  0  /private/etc/mongodb.conf
--'  4  31  /private/etc/mongodb.conf
--'  5  32  /private/etc/mongodb.conf
--'  7  13  /private/etc/mongodb.conf
--'  13  13  /private/etc/mongodb.conf
--'  5  0  ~/1.css
--'  1  0  ~/1.css
--'  5  0  ~/1.css
--'  1  0  ~/1.css
--'  5  0  ~/1.css
--'  1  0  ~/1.css
--'  5  0  ~/1.css
--'  1  0  ~/1.css
--'  5  0  ~/1.css
--'  1  0  ~/1.css
--'  5  0  ~/1.css
--'  1  0  ~/1.css
--'  5  0  ~/1.css
--'  1  0  ~/1.css
--'  5  0  ~/1.css
--'  1  0  ~/1.css
--'  5  0  ~/1.css
--'  1  0  ~/1.css
--'  5  0  ~/1.css
--'  1  0  ~/1.css
--'  5  0  ~/1.css
--'  1  0  ~/1.css
--'  5  0  ~/1.css
--'  1  0  ~/1.css
--'  18  4  /private/etc/mongodb.conf
--'  21  0  /private/etc/mongodb.conf
--'  5  0  ~/1.css
--'  1  0  ~/1.css
--'  5  0  ~/1.css
--'  8  3  ~/.vim/autoload/index.html
+-'  28  20  ~/.vim/vimrc
+-'  1  0  ~/.vim/vimrc
+-'  10  0  ~/.vim/vimrc
+-'  17  0  ~/.vim/colors/devbox-dark-256.vim
+-'  1  0  ~/.vim/colors/devbox-dark-256.vim
+-'  57  0  ~/.vim/vimrc2
+-'  1  0  ~/.vim/vimrc2
+-'  43  0  ~/.vim/vimrc2
+-'  34  0  ~/.vim/vimrc2
+-'  31  0  ~/.vim/vimrc2
+-'  37  0  ~/.vim/vimrc
+-'  5  3  ~/.vim/1.md
+-'  1  0  ~/.vim/1.md
+-'  38  7  ~/.vim/vimrc
+-'  15  7  ~/.vim/vimrc
+-'  71  4  ~/.vim/vimrc
+-'  52  4  ~/.vim/vimrc
+-'  5  3  ~/.vim/1.md
+-'  1  0  ~/.vim/1.md
+-'  5  3  ~/.vim/1.md
+-'  1  0  ~/.vim/1.md
+-'  5  3  ~/.vim/1.md
+-'  1  0  ~/.vim/1.md
+-'  5  3  ~/.vim/1.md
+-'  1  0  ~/.vim/1.md
+-'  5  3  ~/.vim/1.md
+-'  1  0  ~/.vim/1.md
+-'  5  3  ~/.vim/1.md
+-'  1  0  ~/.vim/1.md
+-'  5  3  ~/.vim/1.md
+-'  1  0  ~/.vim/1.md
+-'  5  3  ~/.vim/1.md
+-'  1  0  ~/.vim/1.md
+-'  5  3  ~/.vim/1.md
+-'  1  0  ~/.vim/1.md
+-'  5  3  ~/.vim/1.md
+-'  1  0  ~/.vim/1.md
+-'  5  3  ~/.vim/1.md
+-'  1  0  ~/.vim/1.md
+-'  5  3  ~/.vim/1.md
+-'  1  0  ~/.vim/1.md
+-'  5  3  ~/.vim/1.md
+-'  1  0  ~/.vim/1.md
+-'  5  3  ~/.vim/1.md
+-'  1  0  ~/.vim/1.md
+-'  5  3  ~/.vim/1.md
+-'  1  0  ~/.vim/1.md
+-'  5  3  ~/.vim/1.md
+-'  1  0  ~/.vim/1.md
+-'  5  3  ~/.vim/1.md
+-'  57  0  ~/.vim/vimrc2
+-'  17  0  ~/.vim/colors/devbox-dark-256.vim
+-'  1  0  ~/.vim/colors/devbox-dark-256.vim
+-'  57  0  ~/.vim/vimrc2
+-'  1  0  ~/.vim/vimrc2
+-'  43  0  ~/.vim/vimrc2
+-'  34  0  ~/.vim/vimrc2
+-'  31  0  ~/.vim/vimrc2
+-'  5  3  ~/.vim/1.md
+-'  1  0  ~/.vim/1.md
+-'  5  3  ~/.vim/1.md
+-'  1  0  ~/.vim/1.md
+-'  5  3  ~/.vim/1.md
+-'  1  0  ~/.vim/1.md
+-'  5  3  ~/.vim/1.md
+-'  1  0  ~/.vim/1.md
+-'  5  3  ~/.vim/1.md
+-'  1  0  ~/.vim/1.md
+-'  5  3  ~/.vim/1.md
+-'  1  0  ~/.vim/1.md
+-'  5  3  ~/.vim/1.md
+-'  1  0  ~/.vim/1.md
+-'  5  3  ~/.vim/1.md
+-'  1  0  ~/.vim/1.md
+-'  5  3  ~/.vim/1.md
+-'  1  0  ~/.vim/1.md
+-'  5  3  ~/.vim/1.md
+-'  1  0  ~/.vim/1.md
+-'  5  3  ~/.vim/1.md
+-'  1  0  ~/.vim/1.md
+-'  5  3  ~/.vim/1.md
+-'  1  0  ~/.vim/1.md
+-'  5  3  ~/.vim/1.md
+-'  1  0  ~/.vim/1.md
+-'  5  3  ~/.vim/1.md
+-'  1  0  ~/.vim/1.md
+-'  5  3  ~/.vim/1.md
+-'  1  0  ~/.vim/1.md
+-'  5  3  ~/.vim/1.md
+-'  1  0  ~/.vim/1.md
+-'  5  3  ~/.vim/1.md
+-'  17  0  ~/.vim/colors/devbox-dark-256.vim
+-'  1  0  ~/.vim/colors/devbox-dark-256.vim
+-'  57  0  ~/.vim/vimrc2
+-'  1  0  ~/.vim/vimrc2
+-'  43  0  ~/.vim/vimrc2
+-'  28  20  ~/.vim/vimrc
 
 # History of marks within files (newest to oldest):
 
 > ~/.vim/.gitmodules
 	"	1	0
 
-> ~/.vim/autoload/index.html
-	"	8	3
-	^	8	4
-	.	8	4
-	+	1	0
-	+	1	0
-	+	1	0
-	+	8	7
-	+	15	0
-	+	15	0
-	+	15	0
-	+	8	4
+> ~/.vim/vimrc
+	"	28	20
+	^	16	24
+	.	16	21
+	+	49	4
+	+	51	4
+	+	56	3
+	+	58	3
+	+	55	3
+	+	54	4
+	+	51	5
+	+	52	4
+	+	30	7
+	+	16	21
 
-> ~/.vim/colors/obsidian.vim
-	"	1	0
+> ~/.vim/colors/devbox-dark-256.vim
+	"	17	0
 
-> ~/.vim/colors/solarized.vim
-	"	18	0
+> ~/.vim/vimrc2
+	"	57	0
 
-> ~/.vimrc
-	"	31	0
-
-> /data/work/global/hao123/trunk/fe/web/templates/web/base/base.html
-	"	60	0
-
-> /Volumes/hao123/yuji/global_hao123/webroot/.gitignore
-	"	2	0
-	^	1	11
-	.	1	0
-	+	4	11
-	+	1	0
-
-> /data/dev/node/shadowsocks-nodejs/config.json
-	"	1	0
-
-> /data/dev/node/ooxx/etc/node-ooxx.sh
-	"	1	0
-
-> /data/dev/node/ooxx/node_modules/express-uglify/lib/middleware.js
-	"	1	0
-
-> /usr/local/etc/nginx/vhost/ssh
-	"	1	0
-
-> /usr/local/etc/nginx/vhost/ooxx.org.conf
-	"	1	0
-
-> /data/dev/node/ooxx/public/js/1.html
-	"	1	2
-	^	1	3
-	.	1	2
-	+	1	2
-
-> /data/dev/node/ooxx/public/test.html
-	"	1	1
-	^	1	2
-	.	1	1
-	+	1	1
-
-> /data/dev/google/test/leakfinder/.gclient
-	"	5	0
-	^	5	1
-	.	5	0
-	+	5	0
-
-> /private/tmp/crontab.07wAjEd3Cq
-	"	1	0
-
-> /data/tmp/upload/menhao123_1.18.9/bae.conf
-	"	1	0
-
-> ~/.oh-my-zsh/123
-	"	5	0
-	^	5	0
-	.	4	3
-	+	4	3
-
-> /data/dev/node/node-editor/example/beep.json
-	"	4	9
-	^	4	10
-	.	4	9
-	+	4	9
-
-> scp://username@host//path/to/somefile
-	"	1	0
-
-> /Library/Application Support/Google/Chrome/Default/User StyleSheets/Custom.css
-	"	1	0
-
-> /Library/Application Support/Google/Chrome/Default/User StyleSheets/1
-	"	1	0
-
-> /data/tmp/upload/mid/index.html
-	"	1	0
-
-> /data/tmp/upload/index.html
-	"	1	0
-
-> ~/.zshrc
-	"	1	0
-
-> ~/.ssh/known_hosts
-	"	4	2
-
-> /data/dev/node/pow/output/index.js
-	"	1	0
-
-> /data/dev/node/pow/src/index.coffee
-	"	1	0
-
-> /data/dev/node/pow/src/in.coffee
-	"	1	0
-
-> /data/dev/node/pow/lib/index.js
-	"	1	0
-
-> /private/tmp/crontab.Sp2oE2lw7z
-	"	1	0
-
-> ~/Dropbox/vps/test/exclude.txt
-	"	1	0
-
-> ~/Dropbox/vps/test/.rsynctignore
-	"	2	5
-	^	2	6
-	.	2	5
-	+	2	5
-
-> /data/tmp/2222/123
-	"	1	0
-
-> /data/work/global/m.hao222/online/1.0.2/br/bae.conf
-	"	3	13
-	^	3	14
-	.	3	13
-	+	3	13
-
-> /data/work/global/m.hao222/online/1.0.2/br.1/bae.conf
-	"	1	0
-
-> ~/.ssh/id_rsa.pub
-	"	1	0
-
-> ~/Dropbox/dotfiles/.gitignore
-	"	47	9
-	^	47	10
-	.	47	0
-	+	47	0
-
-> /data/dev/git/leecade/G.hub/dotfiles/vim/gvimrc
-	"	22	61
-	^	22	62
-	.	22	61
-	+	1	37
-	+	22	61
-
-> /data/dev/git/leecade/G.hub/dotfiles/.gitignore
-	"	2	11
-	^	2	12
-	.	2	0
-	+	2	0
-
-> /data/dev/git/leecade/G.hub/basecss/.gitignore
-	"	2	1
-	^	2	2
-	.	2	1
+> ~/.vim/1.md
+	"	5	3
+	^	5	6
+	.	5	1
 	+	5	1
-	+	4	1
-	+	2	1
-
-> /private/etc/mongodb.conf
-	"	1	0
-	^	4	32
-	.	4	31
-	+	1	0
-	+	1	19
-	+	1	0
-	+	1	19
-	+	13	0
-	+	7	0
-	+	1	1
-	+	4	31
-	+	5	32
-	+	4	33
-	+	5	33
-	+	4	31
-
-> ~/1.css
-	"	5	0
-	^	5	0
-	.	5	0
-	+	5	0
