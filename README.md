@@ -23,18 +23,25 @@ $git submodule update
 
 # Add a bundle
 
-`cd ~/.vim`
+```bash
+$cd ~/.vim
 
-`git submodule add git://github.com/tpope/vim-markdown.git bundle/vim-markdown`
+$git submodule add git://github.com/tpope/vim-markdown.git bundle/vim-markdown
+```
 
 # Remove a bundle
 
-`git rm bundle/vim-markdown`
+```bash
+$git rm bundle/vim-markdown
+```
 
 # Update bundle
-`cd ~/.vim`
 
-`git submodule foreach git pull origin master`
+```bash
+$cd ~/.vim
+
+$git submodule foreach git pull origin master
+```
 
 
 
