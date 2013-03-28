@@ -21,11 +21,6 @@ base `vim-pathogen` & `git submodule`
 
 `git submodule add git://github.com/tpope/vim-markdown.git bundle/vim-markdown`
 
-
-git submodule add git://github.com/tpope/vim-pathogen.git bundle/vim-pathogen
-
-git://github.com/tpope/vim-pathogen.git
-
 # Remove a bundle
 
 `git rm bundle/vim-markdown`

@@ -15,6 +15,8 @@ $
 
 # Command Line History (newest to oldest):
 :q
+:set syntax=css
+:file
 :q!
 :wq
 :q@
@@ -23,12 +25,12 @@ $
 :set cs?
 :set ft?
 :set syntax?
-:set syntax=css
 :wq!
 :colorscheme solarized
 :colorscheme
 
 # Search String History (newest to oldest):
+?/sssss
 ?/3
 ? \s\+$
 ?/123
@@ -42,8 +44,8 @@ $
 # Input Line History (newest to oldest):
 
 # Registers:
-"0	CHAR	0
-	    autocmd FileType make setlocal ts=4 sts=4 sw=4 noexpandtab
+""0	CHAR	0
+	 
 "1	LINE	0
 	    div
 	    el
@@ -68,25 +70,29 @@ $
 	" " Always display the tab bar
 "9	LINE	0
 	" set showtabline
-""-	CHAR	0
+"-	CHAR	0
 	 
 
 # File marks:
-'0  1  0  ~/.vim/.gitmodules
-'1  28  20  ~/.vim/vimrc
-'2  1  0  ~/.vim/vimrc
-'3  10  0  ~/.vim/vimrc
-'4  17  0  ~/.vim/colors/devbox-dark-256.vim
-'5  57  0  ~/.vim/vimrc2
-'6  43  0  ~/.vim/vimrc2
-'7  34  0  ~/.vim/vimrc2
-'8  31  0  ~/.vim/vimrc2
-'9  37  0  ~/.vim/vimrc
+'0  1  0  ~/.vim/bundle/syntastic/syntax_checkers/scss/sass.vim
+'1  1  0  ~/.vim/.gitmodules
+'2  28  20  ~/.vim/vimrc
+'3  1  0  ~/.vim/vimrc
+'4  10  0  ~/.vim/vimrc
+'5  17  0  ~/.vim/colors/devbox-dark-256.vim
+'6  57  0  ~/.vim/vimrc2
+'7  43  0  ~/.vim/vimrc2
+'8  34  0  ~/.vim/vimrc2
+'9  31  0  ~/.vim/vimrc2
 
 # Jumplist (newest first):
+-'  1  0  ~/.vim/bundle/syntastic/syntax_checkers/scss/sass.vim
+-'  1  0  ~/.vim/syntax/gitconfig.vim
+-'  1  0  ~/.vim/syntax/slim.vim
+-'  29  0  ~/.vim/syntax/mustache.vim
+-'  1  0  ~/.vim/vimrc
 -'  1  0  ~/.vim/.gitmodules
 -'  28  20  ~/.vim/vimrc
--'  1  0  ~/.vim/vimrc
 -'  10  0  ~/.vim/vimrc
 -'  17  0  ~/.vim/colors/devbox-dark-256.vim
 -'  1  0  ~/.vim/colors/devbox-dark-256.vim
@@ -177,19 +183,11 @@ $
 -'  1  0  ~/.vim/1.md
 -'  5  3  ~/.vim/1.md
 -'  17  0  ~/.vim/colors/devbox-dark-256.vim
--'  1  0  ~/.vim/colors/devbox-dark-256.vim
--'  57  0  ~/.vim/vimrc2
--'  1  0  ~/.vim/vimrc2
--'  43  0  ~/.vim/vimrc2
--'  28  20  ~/.vim/vimrc
 
 # History of marks within files (newest to oldest):
 
-> ~/.vim/.gitmodules
-	"	1	0
-
 > ~/.vim/vimrc
-	"	28	20
+	"	1	0
 	^	16	24
 	.	16	21
 	+	49	4
@@ -202,6 +200,83 @@ $
 	+	52	4
 	+	30	7
 	+	16	21
+
+> ~/.vim/ControlP
+	"	2	0
+	.	2	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	2	0
+
+> ~/.vim/syntax/mustache.vim
+	"	29	0
+
+> ~/.vim/syntax/slim.vim
+	"	1	0
+
+> ~/.vim/syntax/gitconfig.vim
+	"	1	0
+
+> ~/.vim/bundle/syntastic/syntax_checkers/scss/sass.vim
+	"	1	0
+
+> ~/.vim/.gitmodules
+	"	1	0
 
 > ~/.vim/colors/devbox-dark-256.vim
 	"	17	0

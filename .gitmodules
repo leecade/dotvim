@@ -33,5 +33,8 @@
 	url = git://github.com/kien/ctrlp.vim.git
 [submodule "bundle/vim-javascript"]
 	path = bundle/vim-javascript
-	url = https://github.com/pangloss/vim-javascript.git
+	url = git://github.com/pangloss/vim-javascript.git
 
+[submodule "bundle/ctrlp"]
+	path = bundle/ctrlp
+	url = git://github.com/kien/ctrlp.vim.git
