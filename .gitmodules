@@ -37,9 +37,6 @@
 [submodule "bundle/vim-syntax-lighttpd"]
 	path = bundle/vim-syntax-lighttpd
 	url = https://github.com/jaset/vim-syntax-lighttpd.git
-[submodule "bundle/vim-nginx"]
-	path = bundle/vim-nginx
-	url = git://github.com/vim-scripts/nginx.vim.git
 [submodule "bundle/nginx-vim-syntax"]
 	path = bundle/nginx-vim-syntax
 	url = git://github.com/thiderman/nginx-vim-syntax.git
