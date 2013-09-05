@@ -3,8 +3,17 @@
 " !silent is used to suppress error messages if the config line
 " Disable Vi compatibility
 set nocompatible
+set autoindent
+set autoread
+set backupcopy=yes
+set clipboard=unnamed
+set ignorecase
 
-" Point to location of pathogen submodule (since it's not in .vim/autoload)
+set mouse=v
+
+
+
+" Pset mouse=aoint to location of pathogen submodule (since it's not in .vim/autoload)
 silent! runtime bundle/vim-pathogen/autoload/pathogen.vim
 " Call pathogen plugin management
 silent! call pathogen#infect()
@@ -93,11 +102,11 @@ set encoding=utf-8 nobomb
 " Use line wrapping
 set wrap
 " Use 4 spaces for indentation
-set shiftwidth=4
+set shiftwidth=2
 " Use 4 spaces for soft tab
-set softtabstop=4
+set softtabstop=2
 " Use 4 spaces for tab
-set tabstop=4
+set tabstop=8
 " Expand tab to spaces
 set expandtab
 " Enable line numbers
@@ -148,5 +157,48 @@ nnoremap <C-y> 3<C-y>
 vnoremap <C-e> 3<C-e>
 vnoremap <C-y> 3<C-y>
 
+" keyboard shortcuts
+let mapleader = ','
+map <C-h> <C-w>h
+map <C-j> <C-w>j
+map <C-k> <C-w>k
+map <C-l> <C-w>l
+map <leader>l :Align
+nmap <leader>a :Ack 
+nmap <leader>b :CtrlPBuffer<CR>
+nmap <leader>d :NERDTreeToggle<CR>
+nmap <leader>f :NERDTreeFind<CR>
+nmap <leader>t :CtrlP<CR>
+nmap <leader>T :CtrlPClearCache<CR>:CtrlP<CR>
+nmap <leader>] :TagbarToggle<CR>
+nmap <leader><space> :call whitespace#strip_trailing()<CR>
+nmap <leader>g :GitGutterToggle<CR>
+nmap <leader>c <Plug>Kwbd
+map <silent> <leader>V :source ~/.vimrc<CR>:filetype detect<CR>:exe ":echo
+" 'vimrc reloaded'"<CR>
+
+" plugin settings
+let g:ctrlp_match_window = 'order:ttb,max:20'
+let g:NERDSpaceDelims=1
+let g:gitgutter_enabled = 0
+
+if executable('ag')
+      let g:ackprg = 'ag --nogroup --column'
+    "  Use Ag over Grep
+   set grepprg=ag\ --nogroup\ --nocolor
+    " Use ag in CtrlP for listing files. Lightning fast and respects
+   let g:ctrlp_user_command = 'ag %s -l --nocolor -g ""'
+endif
+
+" fdoc is yaml
+autocmd BufRead,BufNewFile *.fdoc set filetype=yaml
+" md is markdown
+autocmd BufRead,BufNewFile *.md set filetype=markdown
+
 " Make `Y` work from the cursor to the end of line (which is more logical)
 nnoremap Y y$
+
+
+if filereadable(expand("~/.vimrc.local"))
+    source ~/.vimrc.local
+endif

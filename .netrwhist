@@ -1,8 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =6
-let g:netrw_dirhist_1='/data'
-let g:netrw_dirhist_2='/'
-let g:netrw_dirhist_3='/Volumes/HDD/Users/yuji/.lighttable'
-let g:netrw_dirhist_4='/Volumes/HDD/Users/yuji/.local'
-let g:netrw_dirhist_5='/Volumes/HDD/Users/yuji/.local/share'
-let g:netrw_dirhist_6='/Volumes/HDD/Users/yuji/.local/share/autojump'
